@@ -31,8 +31,8 @@ class WndProc:
                 Call.data |= {'WM_MOVE': (W.GET_X_LPARAM(lParam), W.GET_Y_LPARAM(lParam))}
                 Call.TK.event_generate('<<WM_MOVE>>', x=W.GET_X_LPARAM(lParam), y=W.GET_Y_LPARAM(lParam))
             case c.WM_SIZE:
-                Call.TK.event_generate('<<WM_SIZE>>', rootx=W.LOWORD(lParam), rooty=W.HIWORD(lParam))
                 __add = -5 if int(wParam) == c.SIZE_MAXIMIZED else 1
+                Call.TK.event_generate('<<WM_SIZE>>', rootx=W.LOWORD(lParam) + 2, rooty=W.HIWORD(lParam) + __add)
                 Call.data |= {'WM_SIZE': (W.LOWORD(lParam) + 2, W.HIWORD(lParam) + __add)}
                 Call.WM.geometry(f'{W.LOWORD(lParam) - 16}x{W.HIWORD(lParam)}+0+0')
                 Call.WM.update()
