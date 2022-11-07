@@ -23,7 +23,7 @@ I developed a code pattern based on the Sword Art Online (SAO) for Tkinter
 
 _Discharge_ is only a SAO reference.
 
-[`./TK/ref/__init__.py`](./TK/ref/__init__.py)
+[`./WM/core.py`](./WM/core.py)
 > ~~~Python
 > class Call:  # Object-IDs are here.
 >    Tk, ... = tk.Tk, ...
@@ -33,7 +33,7 @@ _Discharge_ is only a SAO reference.
 >    Call = Call  # System.Call
 > ~~~
 
- [`./TK/ref/views.py`](./TK/ref/views.py)
+ [`./WM/views.py`](./WM/views.py)
 > ~~~python
 > class Element(System, Call):
 >    def __init__(self, N: str = '', *_, generic=0, **__: ...):
