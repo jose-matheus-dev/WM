@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "574d"
-version = "0.0.0rc1.dev0"
+version = "{{VERSION_PLACEHOLDER}}"
 description = "A Window Manager for Tkinter On Windows 10"
 
 license = "MIT"
