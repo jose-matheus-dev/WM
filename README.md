@@ -3,6 +3,11 @@ A Window Manager for Tkinter On Windows 10
 
 [Tests](https://user-images.githubusercontent.com/73524758/200260996-18de1043-4b5f-4f9c-b3ee-6e27d1903594.mp4)
 
+## How to install
+```Bash
+pip install 574d
+```
+
 
 ## How to use
 >~~~Python
