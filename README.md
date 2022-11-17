@@ -1,5 +1,5 @@
-# WM
-A Window Manager for Tkinter On Windows 10
+# WM - 574d
+### A Window Manager for Tkinter On Windows 10
 
 [Video Test](https://user-images.githubusercontent.com/73524758/200260996-18de1043-4b5f-4f9c-b3ee-6e27d1903594.mp4)
 * [WM/Wiki](https://github.com/XxFULLDLCxX/WM/wiki)
@@ -20,6 +20,7 @@ pip install 574d
 >     Tk.mainloop()
 > ```
 
+___
 I developed a code pattern based on the Sword Art Online (SAO) for Tkinter
 
 ###  For Example:
@@ -67,7 +68,3 @@ _Discharge_ is only a SAO reference.
 >         my_frame.grid_remove()
 >         my_frame.grid()
 > ```
-
-
-
-
